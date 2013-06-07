@@ -1,0 +1,2 @@
+the function AVERAGE.
+the function SUM.
