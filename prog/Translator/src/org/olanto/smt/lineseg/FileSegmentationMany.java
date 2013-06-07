@@ -48,7 +48,7 @@ public class FileSegmentationMany {
 
     public FileSegmentationMany(){
         useAbreviation=false;
-        init("ENGLISH");
+        init("ENGLISH");  // to be adapted for source language
     }
 
 
