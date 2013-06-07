@@ -3,7 +3,7 @@
 #################
 
 GWT/*
-dist/*
+##dist/*
 
 prog/*/nbproject/private/
 prog/*/build/
