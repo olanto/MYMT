@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : configState.xml
+    Created on : 1 fev 2011 
+    Author     : Simple-shift - jg
+    Description: typical configuration
+-->
+
+<state>
+    <translator>
+        <corpus>prod</corpus>
+        <source>en</source>
+        <target>fr</target>
+        <list>
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>11201</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>11202</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.60</ip>
+                <port>11203</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>11204</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.61</ip>
+                <port>11201</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.61</ip>
+                <port>11202</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.61</ip>
+                <port>11203</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.61</ip>
+                <port>11204</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+          </list>
+
+        <source>fr</source>
+        <target>en</target>
+        <list>
+            <service>
+                <ip>192.168.1.62</ip>
+                <port>12101</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.62</ip>
+                <port>12102</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.62</ip>
+                <port>12103</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.62</ip>
+                <port>12104</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+          </list>
+
+
+        <corpus>prod</corpus>
+        <source>en</source>
+        <target>es</target>
+        <list>
+            <service>
+                <ip>192.168.1.70</ip>
+                <port>11301</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.70</ip>
+                <port>11302</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.70</ip>
+                <port>11303</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.70</ip>
+                <port>11304</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+         </list>
+
+       <corpus>prod</corpus>
+        <source>es</source>
+        <target>en</target>
+        <list>
+            <service>
+                <ip>192.168.1.71</ip>
+                <port>13101</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.71</ip>
+                <port>13102</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.71</ip>
+                <port>13103</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.71</ip>
+                <port>13104</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+         </list>
+
+        <corpus>prod</corpus>
+        <source>fr</source>
+        <target>es</target>
+        <list>
+            <service>
+                <ip>192.168.1.80</ip>
+                <port>12301</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.80</ip>
+                <port>12302</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.80</ip>
+                <port>12303</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.80</ip>
+                <port>12304</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+         </list>
+
+       <corpus>prod</corpus>
+        <source>es</source>
+        <target>fr</target>
+        <list>
+            <service>
+                <ip>192.168.1.81</ip>
+                <port>13201</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.81</ip>
+                <port>13202</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.81</ip>
+                <port>13203</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.81</ip>
+                <port>13204</port>
+                <daemon>daemon-smt2.pl</daemon>
+            </service>
+         </list>
+
+        <corpus>prodUP</corpus>
+        <source>fr</source>
+        <target>fr</target>
+        <list>
+             <service>
+                <ip>192.168.1.60</ip>
+                <port>12201</port>
+                <daemon>daemon-up1.pl</daemon>
+            </service>
+              <service>
+                <ip>192.168.1.61</ip>
+                <port>12201</port>
+                <daemon>daemon-up1.pl</daemon>
+            </service>
+             <service>
+                <ip>192.168.1.81</ip>
+                <port>12201</port>
+                <daemon>daemon-up1.pl</daemon>
+            </service>
+          </list>
+
+        <corpus>prodUP</corpus>
+        <source>en</source>
+        <target>en</target>
+        <list>
+             <service>
+                <ip>192.168.1.62</ip>
+                <port>11101</port>
+                <daemon>daemon-up2.pl</daemon>
+            </service>
+             <service>
+                <ip>192.168.1.71</ip>
+                <port>11101</port>
+                <daemon>daemon-up2.pl</daemon>
+            </service>
+         </list>
+
+        <corpus>prodUP</corpus>
+        <source>es</source>
+        <target>es</target>
+        <list>
+             <service>
+                <ip>192.168.1.70</ip>
+                <port>13301</port>
+                <daemon>daemon-up1.pl</daemon>
+            </service>
+             <service>
+                <ip>192.168.1.80</ip>
+                <port>13301</port>
+                <daemon>daemon-up1.pl</daemon>
+            </service>
+         </list>
+
+<!--
+
+     -->
+    </translator>
+</state>

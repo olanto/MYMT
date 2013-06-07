@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <servlet>
+        <servlet-name>WebTranslatorService</servlet-name>
+        <servlet-class>org.olanto.smt.myTranslator.server.WebTranslatorServiceImpl</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WebTranslatorService</servlet-name>
+        <url-pattern>/org.olanto.smt.myTranslator.WebTranslator/webtranslatorservice</url-pattern>
+    </servlet-mapping>
+    <context-param>
+        <!-- max size of the upload request -->
+        <param-name>maxSize</param-name>
+        <param-value>100000000</param-value>
+    </context-param>
+    <servlet>
+        <servlet-name>uploadServlet</servlet-name>
+        <servlet-class>org.olanto.smt.myTranslator.server.UploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>uploadServlet</servlet-name>
+        <url-pattern>*.gupld</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+</web-app>

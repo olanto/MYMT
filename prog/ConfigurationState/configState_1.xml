@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : configState.xml
+    Created on : 15 oct 2010, 15:21
+    Author     : Simple-shift
+    Description: typical configuration
+-->
+
+<state>
+    <translator>
+        <corpus>test</corpus>
+        <source>en</source>
+        <target>fr</target>
+        <list>
+            <!-- -->
+            <service>
+                <ip>192.168.1.58</ip>
+                <port>5555</port>
+                 <daemon>daemon.pl</daemon>
+           </service>
+		<service>
+                <ip>192.168.1.58</ip>
+                <port>5556</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+		<service>
+                <ip>192.168.1.58</ip>
+                <port>5557</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+		<service>
+                <ip>192.168.1.58</ip>
+                <port>5558</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+ 		<service>
+                <ip>192.168.1.58</ip>
+                <port>5559</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+
+            <service>
+                <ip>192.168.1.59</ip>
+                <port>5555</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.59</ip>
+                <port>5556</port>
+                 <daemon>daemon.pl</daemon>
+           </service>
+            <service>
+                <ip>192.168.1.59</ip>
+                <port>5557</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.59</ip>
+                <port>5558</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.59</ip>
+                <port>5559</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+            
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>5555</port>
+                <daemon>daemon.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>5556</port>
+                <daemon>daemon.pl</daemon>
+            </service>            
+        </list>
+
+        <corpus>ruen</corpus>
+        <source>ru</source>
+        <target>en</target>
+        <list>
+             <service>
+                <ip>192.168.1.60</ip>
+                <port>5565</port>
+                <daemon>daemon-ruen.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.60</ip>
+                <port>5566</port>
+                <daemon>daemon-ruen.pl</daemon>
+            </service>
+
+
+        </list>
+    </translator>
+</state>

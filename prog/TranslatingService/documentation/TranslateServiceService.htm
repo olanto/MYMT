@@ -1,0 +1,24 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Method invocation trace</title></head><body><h2><a> translateASentence </a> Method invocation</h2><br><hr><h4>Method parameter(s)</h4><table border="1"><tbody><tr><th>Type</th><th>Value</th></tr><tr><td>java.lang.String</td><td>test</td></tr><tr><td>java.lang.String</td><td>en</td></tr><tr><td>java.lang.String</td><td>fr</td></tr><tr><td>java.lang.String</td><td>companies</td></tr></tbody></table><hr><h4>Method returned</h4>java.lang.String : "<b>companies --&gt; les sociétés 
+</b>"<hr><h4>SOAP Request</h4><hr><blockquote><pre xml:lang="">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+    &lt;S:Header/&gt;
+    &lt;S:Body&gt;
+        &lt;ns2:translateASentence xmlns:ns2="http://service.translate.simple/"&gt;
+            &lt;corpus&gt;test&lt;/corpus&gt;
+            &lt;sourceLanguage&gt;en&lt;/sourceLanguage&gt;
+            &lt;targetLanguage&gt;fr&lt;/targetLanguage&gt;
+            &lt;aSentence&gt;companies&lt;/aSentence&gt;
+        &lt;/ns2:translateASentence&gt;
+    &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</pre></blockquote><hr><h4>SOAP Response</h4><hr><blockquote><pre xml:lang="">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/"&gt;
+    &lt;S:Body&gt;
+        &lt;ns2:translateASentenceResponse xmlns:ns2="http://service.translate.simple/"&gt;
+            &lt;return&gt;companies --&gt; les sociÃ©tÃ©s 
+&lt;/return&gt;
+        &lt;/ns2:translateASentenceResponse&gt;
+    &lt;/S:Body&gt;
+&lt;/S:Envelope&gt;
+</pre></blockquote><hr></body></html>

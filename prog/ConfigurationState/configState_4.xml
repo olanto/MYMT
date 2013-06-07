@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : configState.xml
+    Created on : 1 fev 2011 
+    Author     : Simple-shift - jg
+    Description: typical configuration
+-->
+
+<state>
+    <translator>
+        <corpus>prod</corpus>
+        <source>en</source>
+        <target>fr</target>
+        <list>
+            <service>
+                <ip>192.168.1.214</ip>
+                <port>11201</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+            <service>
+                <ip>192.168.1.214</ip>
+                <port>11202</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+           <service>
+                <ip>192.168.1.214</ip>
+                <port>11203</port>
+                <daemon>daemon-smt1.pl</daemon>
+            </service>
+         </list>
+
+
+<!--
+
+     -->
+    </translator>
+</state>
