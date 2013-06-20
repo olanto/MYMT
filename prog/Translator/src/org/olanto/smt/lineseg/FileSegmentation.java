@@ -50,7 +50,7 @@ public class FileSegmentation {
     public static void init(String _language) {
         language = _language;
         //String language = "RUSSIAN";
-        String dictionnary = "C:/JG/prog/LineSegmentation/dict";
+        String dictionnary = "C:/JG/prog/LineSegmentation/dict";  // need to be localised with the OS
         readAbreviation(dictionnary + "/" + language + ".txt");
         if (_language.equals("FRENCH")) {
             boundary = BreakIterator.getSentenceInstance(ULocale.FRENCH);
