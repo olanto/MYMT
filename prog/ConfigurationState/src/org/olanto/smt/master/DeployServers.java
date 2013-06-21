@@ -36,29 +36,7 @@ public class DeployServers {
 
     public static void main(String[] args) {
 
-        try {
-            java.rmi.registry.LocateRegistry.createRegistry(1099);
-            System.out.println("RMI registry ready.");
-        } catch (Exception e) {
-            System.out.println("RMI registry is probably running ...");
-            //e.printStackTrace();
-        }
 
-               try {
-            System.out.println("initialisation du convertisseur ...");
-
-            ConvertService_BASIC idxobj = new ConvertService_BASIC();
-
-            System.out.println("Enregistrement du serveur");
-
-            String name = "rmi://localhost/CONVSRV";
-            System.out.println("name:" + name);
-            Naming.rebind(name, idxobj);
-            System.out.println("Server is ready");
-
-        } catch (Exception e) {
-           e.printStackTrace();
-        }
 
         ConfigStateServer.start();
         Master.start();

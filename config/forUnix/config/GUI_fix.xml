@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+	<!--The Olanto Foundation-->
+	<!--This is the parameter file for the Graphic User Interface of the WebTranlator-->
+<properties>   
+    
+	<!--GUI Parameters--> 
+    <entry key="INTERFACE_MESSAGE_PATH">/config/messages/interface/initclient</entry>
+	<entry key="INTERFACE_MESSAGE_LANG">fr</entry>
+	<!--corpus list-->
+	<entry key="CORPUS_SET">CORP;Test</entry>
+	<!-- language list -->
+	<entry key="LANG_SET">en;fr</entry>
+	<!-- accepted extension list -->
+	<entry key="EXTENSION_SET">.txt;.docx;.doc</entry>
+	<!--EXP_DAYS: Validity duration of a cookie -->
+    <entry key="EXP_DAYS">365</entry>
+</properties>
