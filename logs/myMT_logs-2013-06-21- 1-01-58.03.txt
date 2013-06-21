@@ -1,0 +1,35 @@
+RMI registry ready.
+initialisation du convertisseur ...
+Enregistrement du serveur
+name:rmi://localhost/CONVSRV
+Server is ready
+RMI registry is probably running ...
+running OS:Windows 7
+Configuration parsed :
+Node[192.168.1.100]LM FAILURE
+  (0)Service[192.168.1.100:11208 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11201 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11203 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11202 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11101 Corpus=CORPUP|en-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11205 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12101 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11204 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12102 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11207 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11206 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+
+
+wait for rmi...
+ConfigState server running !
+-- listing properties --
+TEST_INPUT_STRING=$$$
+START_TIME=1000
+TEST_OUTPUT_STRING=$$$ |0-0| 
+DAEMON_SLEEP_TEST=120000
+Launching the daemons...
+NodeStarter[192.168.1.100]Node down !
+NodeStarter[192.168.1.100]Sleeping...
+NodeTester[192.168.1.100]Node down ! All the services are marked as down.
+NodeTester[192.168.1.100]Sleeping...

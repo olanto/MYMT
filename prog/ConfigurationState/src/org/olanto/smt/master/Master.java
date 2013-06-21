@@ -40,6 +40,7 @@ import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.olanto.util.smt.utilsmt.SenseOS;
 
 /**
  * Cette classe s'occupe de lancer tous les daemons. Elle contient toutes les
@@ -251,7 +252,8 @@ public class Master {
     }
 
        public static void start() {
-           String conf="C:/MYMT/config/Master.properties";
+         //  String conf="C:/MYMT/config/Master.properties";
+         String conf=SenseOS.getMYMT_HOME()+"/config/Master.properties";
         try {
             new Master(conf);
         } catch (NotBoundException ex) {

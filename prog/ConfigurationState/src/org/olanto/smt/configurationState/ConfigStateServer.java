@@ -24,6 +24,7 @@ import java.io.IOException;
 import java.rmi.Naming;
 import java.rmi.RMISecurityManager;
 import java.rmi.RemoteException;
+import org.olanto.util.smt.utilsmt.SenseOS;
 import org.xml.sax.SAXException;
 
 /**
@@ -47,13 +48,13 @@ public class ConfigStateServer {
         }
         
         try {
-            File configFile = new File("c:/MYMT/config/configState.xml");
+            File configFile = new File(SenseOS.getMYMT_HOME()+"/config/configState.xml");
             ConfigState configState = new ConfigState(configFile);
 
 
-            if (System.getSecurityManager() == null) {
-                System.setSecurityManager(new RMISecurityManager());
-            }
+//            if (System.getSecurityManager() == null) {
+//                System.setSecurityManager(new RMISecurityManager());
+//            }
 
             System.out.println("wait for rmi...");
             Naming.rebind("rmi://localhost/configState", configState);
