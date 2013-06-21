@@ -52,9 +52,9 @@ public class ConfigStateServer {
             ConfigState configState = new ConfigState(configFile);
 
 
-//            if (System.getSecurityManager() == null) {
-//                System.setSecurityManager(new RMISecurityManager());
-//            }
+            if (System.getSecurityManager() == null) {
+                System.setSecurityManager(new RMISecurityManager());
+            }
 
             System.out.println("wait for rmi...");
             Naming.rebind("rmi://localhost/configState", configState);
