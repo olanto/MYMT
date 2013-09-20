@@ -1,0 +1,55 @@
+RMI registry ready.
+running OS:Windows 7
+Configuration parsed :
+Node[192.168.1.100]LM FAILURE
+  (0)Service[192.168.1.100:11208 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11201 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11203 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11202 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11101 Corpus=CORPUP|en-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11205 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12101 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11204 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:12102 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11207 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+  (0)Service[192.168.1.100:11206 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at �
+
+
+wait for rmi...
+ConfigState server running !
+RMI registry is probably running ...
+initialisation du convertisseur ...
+Enregistrement du serveur
+name:rmi://localhost/CONVSRV
+Server is ready
+-- listing properties --
+TEST_INPUT_STRING=$$$
+START_TIME=1000
+TEST_OUTPUT_STRING=$$$ |0-0| 
+DAEMON_SLEEP_TEST=120000
+Launching the daemons...
+NodeTester[192.168.1.100]Testing services...
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11208 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:12102 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11101 Corpus=CORPUP|en-->en]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11207 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11203 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11204 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11206 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11202 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeStarter[192.168.1.100]Searching services to (re)start...
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:12101 Corpus=CORP|fr-->en]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr] is down ! Try to restart it...
+Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr] starting... 
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11201 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+The service was successfully started. (1)Service[192.168.1.100:12201 Corpus=CORPUP|fr-->fr]lastOK=2013.09.20 at 11:41:43, up at 50.00%
+NodeTester[192.168.1.100]DOWN : (0)Service[192.168.1.100:11205 Corpus=CORP|en-->fr]lastOK=1970.01.01 at 01:00:00, up at 0.00%
+NodeTester[192.168.1.100]Sleeping...
+Service[192.168.1.100:11208 Corpus=CORP|en-->fr] is down ! Try to restart it...
+Service[192.168.1.100:11208 Corpus=CORP|en-->fr] starting... 
+The service was successfully started. (1)Service[192.168.1.100:11208 Corpus=CORP|en-->fr]lastOK=2013.09.20 at 11:41:45, up at 50.00%
+Service[192.168.1.100:12102 Corpus=CORP|fr-->en] is down ! Try to restart it...
+Service[192.168.1.100:12102 Corpus=CORP|fr-->en] starting... 
+The service was successfully started. (1)Service[192.168.1.100:12102 Corpus=CORP|fr-->en]lastOK=2013.09.20 at 11:41:47, up at 50.00%

@@ -52,7 +52,7 @@ public class TranslatorTest implements TranslatorListener {
                         + "a WTO member since 1 July 1995.")));
             }
 
-            Text text = new Text("test", "en", "fr", sentences);
+            Text text = new Text("CORP", "en", "fr", sentences);
 
             Translator transalor = new Translator(text, "localhost");
 
