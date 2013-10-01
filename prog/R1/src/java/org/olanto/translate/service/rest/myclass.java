@@ -55,7 +55,8 @@ public class myclass {
      * @return an instance of java.lang.String
      */
     @GET
-    @Produces({"application/xml", "application/json"})
+//    @Produces({"application/xml", "application/json"})
+    @Produces({"application/json"})
     public TranslationJaxbBean get(
             @DefaultValue("CORP") @QueryParam("key") String key,
             @DefaultValue("en") @QueryParam("source") String source,
